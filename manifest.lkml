@@ -7,11 +7,10 @@ constant: CONNECTION_NAME {
   export: override_optional
 }
 
-
 local_dependency:  {
   project: "braintree_refined_simple"
   override_constant: DATASET_NAME {
-    value: "Enter your Dataset Name Here"
+    value: "braintree"
   }
   override_constant: ROW_FILTER {
     value: "5"
