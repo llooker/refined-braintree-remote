@@ -17,5 +17,5 @@
       "name": "block-braintree_remote",
       "connection_constant": "CONNECTION_NAME"
     }
-  ],
+  ]
 }
