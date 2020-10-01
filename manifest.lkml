@@ -7,27 +7,13 @@ constant: CONNECTION_NAME {
   export: override_optional
 }
 
-local_dependency:  {
-  project: "braintree_refined_simple"
+remote_dependency: braintree_refined_simple {
+  url: "https://github.com/llooker/refined-braintree-simple"
+  ref: "master"
   override_constant: DATASET_NAME {
-    value: "braintree"
+    value: "Enter your Dataset Name Here"
   }
   override_constant: ROW_FILTER {
     value: "5"
   }
 }
-
-
-# remote_dependency: refined-braintree-core {
-#   url: "https://github.com/llooker/refined-braintree-core"
-#   ref: "master"
-#   override_constant: CONNECTION_NAME {
-#     value: "Enter Your Connection Here"
-#   }
-#   override_constant: DATASET_NAME {
-#     value: "Enter your Dataset Name Here"
-#   }
-#   override_constant: ROW_FILTER {
-#     value: "5"
-#   }
-# }
