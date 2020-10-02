@@ -1,0 +1,21 @@
+{
+  "label": "Braintree Payments Refined (Remote)",
+  "category_label": "Models",
+  "branding": {
+    "image_uri": "https://marketplace-api.looker.com/block-icons/braintree_icon.png",
+    "tagline": "Bring your transaction data to life using the Braintree Block."
+  },
+
+  "constants": {
+    "CONNECTION_NAME": {
+      "label": "Connection Name",
+      "value_constraint": "connection"
+    }
+  },
+  "models": [
+    {
+      "name": "block-braintree_remote",
+      "connection_constant": "CONNECTION_NAME"
+    }
+  ]
+}
