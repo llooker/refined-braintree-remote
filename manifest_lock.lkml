@@ -1,4 +1,4 @@
 remote_dependency: braintree_refined_simple {
   url: "https://github.com/llooker/refined-braintree-simple"
-  ref: "66b862874fb8ef9db2a9a82a26d85c6e4ef93fb7"
+  ref: "e52ffa73ea0bb4b87ced2581fda311c480bd8325"
 }
