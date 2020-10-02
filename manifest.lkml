@@ -13,7 +13,6 @@ remote_dependency: braintree_refined_simple {
 }
 
 
-
 constant: CONNECTION_NAME {
   value: "brick-layer"
   export: override_optional
