@@ -13,7 +13,7 @@
   },
   "models": [
     {
-      "name": "block-braintree_remote",
+      "name": "block-braintree",
       "connection_constant": "CONNECTION_NAME"
     }
   ]
